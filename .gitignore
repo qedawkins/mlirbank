@@ -1,2 +1,4 @@
+bank_venv
+binaries/*
 benchmarks/*
 tmp/*

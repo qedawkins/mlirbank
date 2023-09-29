@@ -1854,7 +1854,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -2259,7 +2259,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -2655,7 +2655,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -3051,7 +3051,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -3447,7 +3447,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -3843,7 +3843,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -4239,7 +4239,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -4635,7 +4635,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -5031,7 +5031,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -5427,7 +5427,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -5823,7 +5823,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -6219,7 +6219,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -6615,7 +6615,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -7011,7 +7011,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -7407,7 +7407,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -7803,7 +7803,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -8199,7 +8199,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -8595,7 +8595,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -8991,7 +8991,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -9387,7 +9387,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -9783,7 +9783,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -10179,7 +10179,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -10575,7 +10575,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -10971,7 +10971,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -11367,7 +11367,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -11763,7 +11763,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -12159,7 +12159,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -12555,7 +12555,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -12951,7 +12951,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -13347,7 +13347,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -13743,7 +13743,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -14139,7 +14139,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1222: i64):
       %2403 = linalg.index 3 : index
       %2404 = arith.index_cast %2403 : index to i64
-      %2405 = arith.maxf %in, %out : f16
+      %2405 = arith.maximumf %in, %out : f16
       %2406 = arith.cmpf ogt, %in, %out : f16
       %2407 = arith.select %2406, %2404, %out_1222 : i64
       linalg.yield %2405, %2407 : f16, i64
@@ -15476,7 +15476,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -15881,7 +15881,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -16278,7 +16278,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -16675,7 +16675,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -17072,7 +17072,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -17469,7 +17469,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -17866,7 +17866,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -18263,7 +18263,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -18660,7 +18660,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -19057,7 +19057,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -19454,7 +19454,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -19851,7 +19851,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -20248,7 +20248,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -20645,7 +20645,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -21042,7 +21042,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -21439,7 +21439,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -21836,7 +21836,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -22233,7 +22233,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -22630,7 +22630,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -23027,7 +23027,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -23424,7 +23424,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -23821,7 +23821,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -24218,7 +24218,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -24615,7 +24615,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -25012,7 +25012,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -25409,7 +25409,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -25806,7 +25806,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -26203,7 +26203,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -26600,7 +26600,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -26997,7 +26997,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -27394,7 +27394,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
@@ -27791,7 +27791,7 @@ module attributes {torch.debug_module_name = "_lambda"} {
     ^bb0(%in: f16, %out: f16, %out_1189: i64):
       %2395 = linalg.index 3 : index
       %2396 = arith.index_cast %2395 : index to i64
-      %2397 = arith.maxf %in, %out : f16
+      %2397 = arith.maximumf %in, %out : f16
       %2398 = arith.cmpf ogt, %in, %out : f16
       %2399 = arith.select %2398, %2396, %out_1189 : i64
       linalg.yield %2397, %2399 : f16, i64
