@@ -1,4 +1,8 @@
 bank_venv
+sources/*
 binaries/*
 benchmarks/*
 tmp/*
+tmp*
+models/*
+vmfbs/*
